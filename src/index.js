@@ -11,9 +11,9 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="os" element={<Os />} />
+          <Route path="/profile" element={<Home />} />
+          <Route path="/profile/projects" element={<Projects />} />
+          <Route path="/profile/os" element={<Os />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

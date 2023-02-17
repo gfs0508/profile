@@ -11,8 +11,8 @@ const Home = () => {
       </header>
       <body className='App-body'>
         <ul>
-            <li><a className='active' href="#home">Home</a></li>
-            <li><a href='/projects'>Projects</a></li>
+            <li><a className='active' href="/profile">Home</a></li>
+            <li><a href='/profile/projects'>Projects</a></li>
             <li><a href="/os">My OS</a></li>
         </ul>
         <h1 className='title1' name="home">Home Page</h1>

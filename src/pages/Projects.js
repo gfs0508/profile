@@ -12,9 +12,9 @@ const Projects = () => {
       </header>
       <body className='App-body'>
         <ul>
-            <li><a href='./'>Home</a></li>
-            <li><a className='active' href='/projects'>Projects</a></li>
-            <li><a href="/os">My OS</a></li>
+            <li><a href='/profile'>Home</a></li>
+            <li><a className='active' href='/profile/projects'>Projects</a></li>
+            <li><a href="/profile/os">My OS</a></li>
         </ul>
         <h1 className='title1'>Projects Page</h1>
         <div className='box'>
