@@ -1,7 +1,8 @@
 import '../App.css';
 import "../styles/index.css"
 
-const Home = () => {
+function Home() {
+
   return(
     <div className="App">
       <header className="App-header"> 
@@ -12,8 +13,8 @@ const Home = () => {
       <body className='App-body'>
         <ul>
             <li><a className='active' href="/profile">Home</a></li>
-            <li><a href='/profile/projects'>Projects</a></li>
-            <li><a href="/profile/os">My OS</a></li>
+            <li><a href='/profile/#/projects'>Projects</a></li>
+            <li><a href="/profile/#/os">My OS</a></li>
         </ul>
         <h1 className='title1' name="home">Home Page</h1>
         <center><img alt='photography' src='https://avatars.githubusercontent.com/u/88109863?v=4' className='photo'></img></center>
